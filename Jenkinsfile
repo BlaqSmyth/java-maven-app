@@ -8,6 +8,7 @@ pipeline {
             steps {
                 script {
                     echo "building the application for second webhook testing"
+                    echo "This is to test that the webhook integration works fine"
                     sh 'mvn package'
                 }
             }
