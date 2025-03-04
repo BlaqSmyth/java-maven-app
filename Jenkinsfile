@@ -7,7 +7,7 @@ pipeline {
         stage("build jar") {
             steps {
                 script {
-                    echo "building the application testing webhooks"
+                    echo "building the application for second webhook testing"
                     sh 'mvn package'
                 }
             }
